@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  section {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .good-contrast {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto oscuro */
+  }
+  
+  .low-contrast {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #999999; /* Texto gris claro (bajo contraste) */
+  }
+  
+  .circle-container {
+    margin-top: 20px;
+  }
+  
+  .large-text {
+    font-size: 24px;
+  }
+  
+  .small-text {
+    font-size: 12px;
+  }
+  
+  .medium-text {
+    font-size: 16px;
+  }
+  
+  .tiny-text {
+    font-size: 10px;
+  }
+  
